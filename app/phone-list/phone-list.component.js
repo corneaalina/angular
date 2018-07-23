@@ -1,7 +1,7 @@
 angular.
     module('phoneList').
     component('phoneList', {
-        templateUrl: 'phone-list/phoneList.template.html',
+        templateUrl: 'phone-list/phone-list.template.html',
         controller: function PhoneListController() {
             this.phones = [
                 {
@@ -14,7 +14,6 @@ angular.
                     name: 'MOTOROLA XOOM™',
                     snippet: 'The Next, Next Generation tablet.'
                 }
-            ]
+            ];
         }
     });
-
